@@ -18,6 +18,8 @@ public class HelloWorld
     }
 
     def String sayHello(String msg){
+        echo akcore
+        akcore.NullSafeComparator.new();
         return "FROM HELLOWORLD: "+msg;
     }
 }
