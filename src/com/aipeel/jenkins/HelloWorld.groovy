@@ -1,5 +1,6 @@
 package com.aipeel.jenkins;
 
+@Grab(com.akamai.edgegrid:edgegrid-signer-core:5.0.0)
 import com.akamai.edgegrid.signer.NullSafeComparator;
 
 /**
