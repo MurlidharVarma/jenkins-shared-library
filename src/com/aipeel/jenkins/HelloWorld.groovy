@@ -12,6 +12,6 @@ public class HelloWorld
     }
 
     def String sayHello(String msg){
-        return msg;
+        return "FROM HELLOWORLD: "+msg;
     }
 }
