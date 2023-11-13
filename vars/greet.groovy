@@ -5,9 +5,6 @@
 import com.aipeel.jenkins.HelloWorld
 
 def call(String msg = "Hello World"){
-    def akcore = libraryResource 'lib/edgegrid-signer-core-5.0.0.jar';
-    this.classLoader.loadClass(akcore)
-    echo(akcore);
-    HelloWorld obj = new HelloWorld(akcore);
+    HelloWorld obj = new HelloWorld();
     echo("FROM GREET: "+ obj.sayHello(msg));
 }
