@@ -45,6 +45,8 @@
             <groupId>com.akamai.edgegrid</groupId>
             <artifactId>edgegrid-signer-core</artifactId>
             <version>5.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/resources/lib/edgegrid-signer-core-5.0.0.jar</systemPath>
         </dependency>
     </dependencies>
 
